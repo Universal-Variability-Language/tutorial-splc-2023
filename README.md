@@ -1,5 +1,17 @@
 # Materials for UVL Tutorial at SPLC'23
 
+During the tutorial we need different software which may require some time to download and install. To have a smoother experience during the tutorial, it would be great to start preparing the respective tools during the introduction. During the tutorial, we will need the following:
+
+
+| Sessions  | Software               | Link                                                      | Notes                            |
+|-----------|------------------------|-----------------------------------------------------------|----------------------------------|
+| Session 1 | Visual Studio Code     | https://code.visualstudio.com/Download                    |                                  |
+|           | UVLS                   | https://marketplace.visualstudio.com/items?itemName=caradhras.uvls-code | Install via internal marketplace |
+|           | z3                     | https://github.com/Universal-Variability-Language/uvl-lsp | Instructions for different OS    |
+| Session 2 | FeatureIDE Pre-package | https://featureide.github.io/                             | Pre-packages version 3.10.0      |
+| Session 3 |                        |                                                           |                                  |
+
+
 ## Session 1: Textual Editing with UVLS
 
 UVLS is an LSP that enables syntax highlighting, autocompletion, semantic analyses, and configuration for UVL models. 
