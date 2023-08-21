@@ -1,0 +1,26 @@
+features
+    "Ice Cream"
+        mandatory
+            Category
+                alternative
+                    Popsicle {Price 1}
+                    Scoop {Price 2}
+            Flavors
+                or
+                    Lemon
+                    Chocolate
+            Container
+                alternative
+                    Stick
+                    Cup
+                    Cone
+        optional
+            Waffle {Price 0.7}
+            String "Name of customer"
+
+
+constraints
+    Popsicle => Stick
+    Scoop => Cup | Cone
+    sum(Price) < 2.5
+    
