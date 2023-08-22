@@ -8,19 +8,21 @@ features
             Flavors
                 or
                     Lemon
-                    Chocolate
+                    Chocolate cardinality [1..3]
+                        alternative
+                            White
+                            Dark
             Container
                 alternative
                     Stick
                     Cup
                     Cone
+
         optional
             Waffle {Price 0.7}
             String "Name of customer"
-
 
 constraints
     Popsicle => Stick
     Scoop => Cup | Cone
     sum(Price) < 2.5
-    
