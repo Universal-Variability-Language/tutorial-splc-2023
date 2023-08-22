@@ -8,6 +8,7 @@ During the tutorial we need different software which may require some time to do
 | Session 1 | Visual Studio Code     | https://code.visualstudio.com/Download                    |                                  |
 |           | UVLS                   | https://marketplace.visualstudio.com/items?itemName=caradhras.uvls-code | Install via internal marketplace |
 |           | z3                     | https://github.com/Universal-Variability-Language/uvl-lsp | Instructions for different OS    |
+|           | graphVIZ View          | https://marketplace.visualstudio.com/items?itemName=tintinweb.graphviz-interactive-preview | Optional visualization for FM    |
 | Session 2 | FeatureIDE Pre-package | https://featureide.github.io/                             | Pre-packages version 3.10.0      |
 | Session 3 |                        |                                                           |                                  |
 
@@ -28,6 +29,8 @@ In the tutorial, we will use the LSP in VSCode.
 1. *Optional:* If you want to use semantic analyses, please install Z3 first. See https://github.com/Universal-Variability-Language/uvl-lsp for instructions on how to build z3 on different operating systems.
 2. Install VSCode from https://code.visualstudio.com/ or using your favorite package manager.
 3. In VSCode, open the *extensions* tab and search for UVLS.
+3a. Alternatively, you can download the extension from https://marketplace.visualstudio.com/items?itemName=caradhras.uvls-code. Then install the extension via Extension Tab > ... >  Install from VSIX. The LSP will be downloaded automatically by the extension.
+3b. Arch-based Linux: Install code-marketplace (AUR) to enable extensions in VSCode
 4. Accept the automatic download for the LSP.
 5. You can now edit .uvl files with the editing support of UVLS.
 
