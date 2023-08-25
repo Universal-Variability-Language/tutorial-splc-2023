@@ -38,6 +38,8 @@ In the tutorial, we will use the LSP in VSCode.
 ## Session 2: Modeling UVL with FeatureIDE
 FeatureIDE is a widely used environment integrated in Eclipse for feature-oriented software development. UVL models can read, stored, and graphically edited in FeatureIDE. Furthermore, FeatureIDE supports many advanced operations for feature-oriented software development that can be used with UVL.
 
+During the first session, we built an UVL model together that looks similar to [this](https://github.com/Universal-Variability-Language/tutorial-splc-2023/blob/main/models/icecream-shared.uvl). You can also continue with this UVL model provided here.
+
 ### Relevant Links
 
 * Homepage with prepackaged versions of Eclipse with FeatureIDE: https://featureide.github.io/

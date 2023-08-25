@@ -1,5 +1,5 @@
 features
-    "Ice Cream"
+    "Ice Cream" {extended__}
         mandatory
             Category
                 alternative
