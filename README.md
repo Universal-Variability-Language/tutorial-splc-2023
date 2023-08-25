@@ -54,6 +54,7 @@ During the first session, we built an UVL model together that looks similar to [
 2. Extract Eclipse and run it.
 3. Create a new feature modeling project via New -> FeatureIDE Project
 3a. Select the just created UVL model in the dialog to initialize the project with it.
+4. Open the UVL model in the newly created project to open the graphical editor.
 
 ## Session 3: Transforming UVL models with TraVarT
 
