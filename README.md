@@ -10,7 +10,7 @@ During the tutorial we need different software which may require some time to do
 |           | z3                     | https://github.com/Universal-Variability-Language/uvl-lsp | Instructions for different OS    |
 |           | graphVIZ View          | https://marketplace.visualstudio.com/items?itemName=tintinweb.graphviz-interactive-preview | Optional visualization for FM    |
 | Session 2 | FeatureIDE Pre-package | https://featureide.github.io/                             | Pre-packages version 3.10.0      |
-| Session 3 |                        |                                                           |                                  |
+| Session 3 | TraVarT Pre-package    | https://litcps.jku.at/vasics/travart/tutorial.zip         |                                  |
 
 
 ## Session 1: Textual Editing with UVLS
@@ -58,5 +58,11 @@ During the first session, we built an UVL model together that looks similar to [
 
 ## Session 3: Transforming UVL models with TraVarT
 
+TraVarT enables the transformation between different variability artifacts. In the latest version, TraVarT provides a plugin infrastrucutre, which enables supporting different types of artifacts at the same time and an extension with your own custom approach.
+
+In this tutorial we explore the transformation of artfiacts using a simple CLI. Also a short introduction to the extension mechanism is given.
+The provided .zip provides the travart.jar and multiple plugins and sample artifacts to test. 
+
+### Relevant Links
 
 * TraVarT repository: https://github.com/SECPS/TraVarT
